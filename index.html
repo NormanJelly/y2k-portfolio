@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Y2K复古个人空间 | 千禧年风格网页</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 页面加载动画 -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="pixel-loader"></div>
+            <p class="loading-text">SYSTEM BOOTING...</p>
+            <p class="loading-subtext">Y2K PORTFOLIO v1.0</p>
+        </div>
+    </div>
+
+    <!-- 主容器 -->
+    <div class="container">
+        <!-- 头部导航栏 -->
+        <header class="y2k-header">
+            <div class="header-content">
+                <!-- Logo区域 -->
+                <div class="logo-section">
+                    <div class="pixel-logo">✨</div>
+                    <h1 class="site-title">Y2K<span class="blink">_</span>SPACE</h1>
+                    <div class="status-indicator">
+                        <span class="status-dot online"></span>
+                        <span class="status-text">ONLINE</span>
+                    </div>
+                </div>
+                
+                <!-- 导航菜单 -->
+                <nav class="y2k-nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> 主页</a></li>
+                        <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> 关于</a></li>
+                        <li><a href="#projects" class="nav-link"><i class="fas fa-code"></i> 项目</a></li>
+                        <li><a href="#skills" class="nav-link"><i class="fas fa-star"></i> 技能</a></li>
+                        <li><a href="#contact" class="nav-link"><i class="fas fa-comment"></i> 联系</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- 访客计数器 -->
+                <div class="visitor-counter">
+                    <i class="fas fa-eye"></i>
+                    <span id="visitor-count">0001</span>
+                    <span class="counter-label">VISITORS</span>
+                </div>
+            </div>
+            
+            <!-- 装饰性扫描线 -->
+            <div class="scan-line"></div>
+        </header>
+
+        <!-- 主内容区域 -->
+        <main class="main-content">
+            <!-- 个人简介区域 -->
+            <section id="home" class="hero-section">
+                <div class="hero-content">
+                    <!-- 头像和基本信息 -->
+                    <div class="profile-card">
+                        <div class="avatar-frame">
+                            <div class="pixel-avatar">
+                                <i class="fas fa-user-astronaut"></i>
+                            </div>
+                            <div class="avatar-glow"></div>
+                        </div>
+                        
+                        <div class="profile-info">
+                            <h2 class="profile-name">数字游民<span class="blink">_</span></h2>
+                            <p class="profile-title">前端开发者 | Y2K美学爱好者</p>
+                            
+                            <!-- 状态标签 -->
+                            <div class="status-tags">
+                                <span class="status-tag available"><i class="fas fa-circle"></i> 可接项目</span>
+                                <span class="status-tag coding"><i class="fas fa-keyboard"></i> 编码中</span>
+                                <span class="status-tag creative"><i class="fas fa-palette"></i> 创意模式</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 个人宣言 -->
+                    <div class="hero-statement">
+                        <div class="statement-box">
+                            <h3 class="statement-title"><i class="fas fa-quote-left"></i> 个人宣言</h3>
+                            <p class="statement-text">
+                                欢迎来到我的Y2K数字空间！这里融合了千禧年的复古美学与现代前端技术。
+                                我热爱创造独特、有趣的网页体验，让每个像素都充满故事。
+                            </p>
+                            <div class="statement-footer">
+                                <span class="current-time" id="current-time">00:00:00</span>
+                                <span class="location"><i class="fas fa-satellite"></i> 数字宇宙</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 装饰性元素 -->
+                <div class="hero-decoration">
+                    <div class="floating-shape shape1"></div>
+                    <div class="floating-shape shape2"></div>
+                    <div class="floating-shape shape3"></div>
+                </div>
+            </section>
+
+            <!-- 关于我区域 -->
+            <section id="about" class="about-section">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="title-number">01</span> 关于我</h2>
+                    <div class="title-decoration"></div>
+                </div>
+                
+                <div class="about-content">
+                    <!-- 时间线 -->
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">1999</div>
+                            <div class="timeline-content">
+                                <h3>互联网启蒙</h3>
+                                <p>第一次接触拨号上网，被Y2K美学深深吸引</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2005</div>
+                            <div class="timeline-content">
+                                <h3>网页设计入门</h3>
+                                <p>使用FrontPage制作第一个个人主页</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2015</div>
+                            <div class="timeline-content">
+                                <h3>前端开发</h3>
+                                <p>转向现代前端技术，但保留复古情怀</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2024</div>
+                            <div class="timeline-content">
+                                <h3>Y2K复兴</h3>
+                                <p>专注于复古未来主义网页设计</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 技能进度条 -->
+                    <div class="skills-progress">
+                        <h3>技术能力</h3>
+                        <div class="progress-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="95"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="progress-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="88"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="progress-item">
+                            <span class="skill-name">UI/UX设计</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="82"></div>
+                            </div>
+                            <span class="skill-percent">82%</span>
+                        </div>
+                        <div class="progress-item">
+                            <span class="skill-name">Y2K美学</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="98"></div>
+                            </div>
+                            <span class="skill-percent">98%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 项目展示区域 -->
+            <section id="projects" class="projects-section">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="title-number">02</span> 项目展示</h2>
+                    <div class="title-decoration"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- 项目卡片1 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="project-badge new">NEW</span>
+                            <h3 class="project-title">复古聊天室</h3>
+                        </div>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="image-overlay">点击预览</div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-desc">基于WebSocket的Y2K风格实时聊天应用</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Y2K UI</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-view"><i class="fas fa-eye"></i> 预览</button>
+                            <button class="btn-code"><i class="fas fa-code"></i> 代码</button>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目卡片2 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="project-badge hot">HOT</span>
+                            <h3 class="project-title">像素艺术生成器</h3>
+                        </div>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="image-overlay">点击预览</div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-desc">在线创建和编辑8-bit风格像素艺术</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Canvas API</span>
+                                <span class="tech-tag">像素算法</span>
+                                <span class="tech-tag">复古调色板</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-view"><i class="fas fa-eye"></i> 预览</button>
+                            <button class="btn-code"><i class="fas fa-code"></i> 代码</button>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目卡片3 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="project-badge classic">CLASSIC</span>
+                            <h3 class="project-title">千禧年音乐播放器</h3>
+                        </div>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <div class="image-overlay">点击预览</div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-desc">Winamp风格的复古音乐播放器界面</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Web Audio API</span>
+                                <span class="tech-tag">可视化</span>
+                                <span class="tech-tag">皮肤系统</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-view"><i class="fas fa-eye"></i> 预览</button>
+                            <button class="btn-code"><i class="fas fa-code"></i> 代码</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 联系区域 -->
+            <section id="contact" class="contact-section">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="title-number">03</span> 联系我</h2>
+                    <div class="title-decoration"></div>
+                </div>
+                
+                <div class="contact-content">
+                    <!-- 联系表单 -->
+                    <div class="contact-form">
+                        <h3>发送消息</h3>
+                        <form id="message-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="你的名字" required class="y2k-input">
+                                <div class="input-decoration"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="邮箱地址" required class="y2k-input">
+                                <div class="input-decoration"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="输入你的消息..." rows="4" required class="y2k-textarea"></textarea>
+                                <div class="textarea-decoration"></div>
+                            </div>
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                <span>发送消息</span>
+                                <div class="submit-glow"></div>
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <!-- 社交链接 -->
+                    <div class="social-links">
+                        <h3>社交网络</h3>
+                        <div class="social-grid">
+                            <a href="#" class="social-link github">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="#" class="social-link codepen">
+                                <i class="fab fa-codepen"></i>
+                                <span>CodePen</span>
+                            </a>
+                            <a href="#" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link email">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email</span>
+                            </a>
+                        </div>
+                        
+                        <!-- 联系信息 -->
+                        <div class="contact-info">
+                            <div class="info-item">
+                                <i class="fas fa-globe"></i>
+                                <span>在线状态: <span class="online-status">活跃</span></span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>响应时间: 24小时内</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>数字坐标: 127.0.0.1:8080</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="y2k-footer">
+            <div class="footer-content">
+                <!-- 版权信息 -->
+                <div class="footer-copyright">
+                    <p>© 2024 Y2K个人空间 | 千禧年复古风格网页</p>
+                    <p class="footer-subtext">本页面使用纯原生HTML+CSS+JS构建，无任何框架依赖</p>
+                </div>
+                
+                <!-- 页脚导航 -->
+                <div class="footer-nav">
+                    <a href="#home">主页</a>
+                    <a href="#about">关于</a>
+                    <a href="#projects">项目</a>
+                    <a href="#contact">联系</a>
+                </div>
+                
+                <!-- 技术标签 -->
+                <div class="tech-tags">
+                    <span class="tech-tag-small">HTML5</span>
+                    <span class="tech-tag-small">CSS3</span>
+                    <span class="tech-tag-small">JavaScript</span>
+                    <span class="tech-tag-small">Y2K Style</span>
+                </div>
+            </div>
+            
+            <!-- 页脚装饰 -->
+            <div class="footer-decoration">
+                <div class="decoration-line"></div>
+                <div class="floating-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- 复古弹窗 -->
+    <div id="retro-modal" class="retro-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title"><i class="fas fa-exclamation-triangle"></i> 系统消息</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>欢迎来到Y2K数字空间！</p>
+                <p>这个网页采用了千禧年复古设计风格，带你回到互联网的黄金时代。</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-ok">确定</button>
+                <button class="btn-cancel">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 脚本引入 -->
+    <script src="script.js"></script>
+</body>
+</html>
